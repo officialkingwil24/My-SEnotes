@@ -48,3 +48,45 @@
     // Kill a process or infinite process: control-c
     // Go to first character: control-a
     // Go to last character:
+
+
+
+
+
+
+
+    // a function to find boolean values
+        // Boolean()
+        // console.log(Boolean(true));// logs true to the console because what is inbtween the parenthesis is equal to true
+        // console.log(Boolean(2>1)); // logs boolean true to the console
+        // console.log(Boolean('Hello')); // Any string with a length greater than zero holds a boolean value of true
+        // console.log(Boolean('')); // Any string with a length equal to zero holds a boolean value of false
+        // console.log(Boolean(0)); // zero is the only number that holds a boolean of false
+        // console.log(Boolean(10)); logs true
+        // console.log(Boolean(-10)); logs true
+        // console.log(Boolean(.123)); logs true
+        // console.log(Boolean(12.54)); logs true
+        // console.log(Boolean('0')); // is a string with a length greater than 0, therefore true
+        //console.log(Boolean(null)); // holds a boolean value of false
+        //console.log(Boolean(10/'h')); // Not a number, or NaN, holds a boolean value of false
+        //console.log(Boolean(10/'10')) // Math coerces string numbers to become number data types, therefore 10/10 = 1, 1 holds a
+
+        // In summary
+             // False scenarios:
+             // 0, -0, null, false, NaN, undefined, or the empty string ("")
+             
+    // Comparisons:
+          // Comparison operators are used in logical statements to determine equality or difference between variable or value.
+
+         // comparison examples:
+              // Is equal?
+              console.log(Boolean(4 == 2)) // false 4 does not equal 2
+              console.log(Boolean(4 == '4')) // True 4 is equal to '4'
+              // Is equal value and type?
+              console.log(Boolean(4 == '4')) // false, although 4 is equal to '4' the type 'number' is
+              // Is not equal?
+              console.log(Boolean(4 != '4')) // false
+              // Is not equal value or type?
+            // console.log(Boolean(null)) // holds a boolean value of false
+            // console.log(Boolean(0));
+            
