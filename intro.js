@@ -86,7 +86,7 @@
               console.log(Boolean(4 == '4')) // false, although 4 is equal to '4' the type 'number' is
               // Is not equal?
               console.log(Boolean(4 != '4')) // false
-              // Is not equal value or type?
+              // Is not equal value or type?\
             // console.log(Boolean(null)) // holds a boolean value of false
             // console.log(Boolean(0));
             
