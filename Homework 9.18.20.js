@@ -1,9 +1,11 @@
 // Q1: Write some code that will split up a string into a clear string names.
-    var str = 'Will+Smith'
-    var str = 'Michael+Jackson'
-    var str = 'Chris+Brown'
-    str.split('+');
-    console.log(str.split('+')) //
+    var str1 = 'Will+Smith'
+    var str2 = 'Michael+Jackson'
+    var str3 = 'Chris+Brown'
+    str1.split('+');
+    console.log(str.split('+'))
+    str2.split('+');
+    console.log(str.splitri5i
 
 // For example 'Manami+Anam' gets converted into 'Manami, Anam'.
 
