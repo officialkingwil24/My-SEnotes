@@ -1,39 +1,53 @@
-// Create a set of variables for your dream vehicle (number of wheels, number of seats, etc...) This should be at least 10 variables
-var car = 'Honda';
-var model = 'Accord';
-var year = 2020;
-var wheels = 4;
-var seats = 5;
-var color = 'Black';
-var fuel = 'Gasoline';
-var backupCamera = true;
-var manual = false;
-var interiorColor = 'White';
-var driveType = 'FWD';
+//Problem 1
+// Using Math.random(), console.log 3 random numbers from 5 to 15
+//function getRandomArbitrary(min, max){
+ 
+   // min = Math.ceil(min);
+   // max = Math.floor(max);
+ 
+   // return Math.floor(Math.random() * (max - min) + min)
+ // }
 
-var sentence = `My car is a ${car}. The model is ${model}, the car year is ${year}, Have ${wheels} wheels, have ${seats} seats, The car color is ${color}, car fuel is ${fuel}, the interior is ${interiorColor}, and drive type is ${driveType}`
+  //  console.log(getRandomArbitrary(5,15));
 
-console.log(sentence);
+// Problem 2
+// Define a variable name and assign your name to it
+// Create a function that returns your name
 
-// Write code that converts the following into a city name & a city code
-    // For example: MAN54681, City: Manchester Piccadilly"
-    // write code that will convert each of the following. Hint, there is a solution that will convert them all perfectly instead of creating a unique solution for each entry.
-    // var fulltext1 = "MAN54681;Manchester Piccadilly"
-    // MAN54681, City: Manchester Piccadilly
-    var fulltext1 = "MAN54681;Manchester Piccadilly";
-    // console.log('Code: ' + fulltext1.replace(';', ', City: '));
-    // var fulltext2 = 'GNF6519871681;Greenfield"
-    // GNF6519871681, City: Greenfield
-    var fulltext2 = "GNF6519871681;Greenfield"
-     // console.log('Code: ' + fulltext2.replace(';', ', City: '));
-    // var fulltext3 = "LIV515;Liverpool"
-    // LIV515, City: Liverpool
-    var fulltext3 = "LIV515;Liverpool"
-     // console.log(str.split('LIV515;Liverpool'))
-    // console.log('Code: ' + fulltext3.replace(';', ', City: '));
-    // SYB98981981, City: Stalybridge
-    var fulltext4 = "SYB98981981;Stalybridge"
-    // var fulltext5 = HUD517819181;Huddersfield"
-    // HUD517819181, Huddersfield
-    var fulltext5 = "HUD517819181;Huddersfield"
-     // console.log('Code: ' + fulltext5.replace(';', ', City: '));
+// Problem 3
+// Create a function that accepts 2 arguments, both of which are numbers, and returns the sum of those two numbers
+
+// Problem 4
+// Create a function that returns the type of any argument that is being called in the function
+// example
+// type(400) // => 'number'
+// type('hi') // => 'string'
+
+// Problem 5
+// Hint: Ensure you are modifying the parameter and not the original variable inside the function, this will make your life easier with this question
+// var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
+
+// Using the array above, create a funciton that returns the 4th element in the array.
+
+// Create a function that returns only the last element in the fruits array
+
+// Create a function that returns [peach', 'lemon', 'plum', 'grape']
+
+// Create a function that adds another furit to the end of the array and returns the new array
+
+// Create a funciton that returns the string, 'apple and orange and peach and lemon and plum and grape and watermelon'
+
+// Problem 6
+// var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
+
+// Using the array above, create a fucntion that returns the string, 'Hello Wil, happy Friday!'
+
+// Create a funciton that returns the string, 'Hi Shamika and Ramsey!'
+
+// Create a function that returns the string, 'Howdy Sam!'
+// Note: Be sure to change 'Samuel' to 'Sam'
+
+// Problem 7
+// var nums = [12, 3, 50, 1, 99, 2]
+
+// Using a while loop, create a funciton that adds every number in the nums array and return the total number
