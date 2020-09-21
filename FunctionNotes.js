@@ -35,8 +35,45 @@ function noDash(str){
     console.log(noDash(cities))
     // level 3
     // create a function which takes in an array and removes the last and first items 
+    var stars = ['jadakiss', 'Fabolous', 'Lil Wayne', 'Drake']
 
+    function rap(name){
+        name.pop();
+        name.shift();
+        return name
+    }
+    console.log(rap(stars));
 
+// NEW QUESTIONS
+
+// level 1
+    // create a function which returns the opposite of a number
+    var num = 40;
+
+    function negNum(n){
+        var negSign = -n;
+        return negSign;
+    }
+    console.log(negNum(num));
+    // Examples:
+        // input: -1, output: 1
+        // input: 40, output: -40 
+
+// level 3
+    // create a function which takes in a non-integer and returns that number multiplied by 13 and then rounded UP to the next integer
+    function calc(n){
+        var multiplied = n*13;
+        return Math.round(multiplied);
+    }
+    console.log(calc(2.5));
+// level 4
+    // create a function which takes in a string and removes the first, last, and middle letters
+    var drinks = 'Juice';
+    function taste(param){
+        console.log(drinks.slice(0,3));
+    }
+
+    // create a function which returns a random whole number between 25 & 50
 
 
 
