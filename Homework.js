@@ -136,6 +136,15 @@
  //console.log(Greet(names));
 
 // Problem 7
-// var nums = [12, 3, 50, 1, 99, 2]
+ //var nums = [12, 3, 50, 1, 99, 2]
+//function total(){
+  //var i = 0;
+  //while (i < nums.length){
+    //sum += i;
+    //if (i == 5) break;
+    //i++;
+  //}
+ // return sum;
 
+ // console.log(sum);
 // Using a while loop, create a funciton that adds every number in the nums array and return the total number
