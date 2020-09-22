@@ -52,6 +52,12 @@
     //one.shift();
    // return one
  // }
+ //var fruits = ['orange', 'peach', 'lemon', 'apple', 'plum', 'kiwi']
+ //function name(param) {
+ //  return param;
+// }
+
+ //console.log(name(fruits[fruits.length-1]));
 
  // console.log(name(fruits));
 
@@ -62,6 +68,13 @@
 //  }
 
  // console.log(eat(fruits));
+ //var fruits = ['peach', 'lemon', 'plum', 'grape']
+ //function remove(eat) {
+   //return eat.slice(2, -1);
+ //}
+
+ //console.log(remove(fruits));
+ //console.log(fruits);
 
 // Create a function that adds another furit to the end of the array and returns the new array
 //var fruits = ['kiwi', 'fig', 'blueberry']
@@ -73,7 +86,7 @@
  // console.log(eat(fruits));
 
 // Create a funciton that returns the string, 'apple and orange and peach and lemon and plum and grape and watermelon'
-//var fruits = apple and orange and peach and lemon and plum amd grape and watermelon
+//var fruits = ['apple and orange and peach and lemon and plum amd grape and watermelon']
 //  function name(param){
   //  return param;
   //}
@@ -84,29 +97,43 @@
 // var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
 
 // Using the array above, create a fucntion that returns the string, 'Hello Wil, happy Friday!'
-var wil = 'Hello Wil, happy Friday!'
-  function greet(param){
-    return param;
-  }
+//var wil = 'Hello Wil, happy Friday!'
+  //function greet(param){
+    //return param;
+  //}
 
-  console.log(greet(wil));
+  //console.log(greet(wil));
 
-// Create a funciton that returns the string, 'Hi Shamika and Ramsey!'
-var name = 'Hi Shamika and Ramsey!'
-  function say(param){
-    return param
-  }
-
-  console.log(say(name));
-
-// Create a function that returns the string, 'Howdy Sam!'
-// Note: Be sure to change 'Samuel' to 'Sam'
-//var hey = 'Howdy Samuel!'
-  //function word(param){
- //   return param
+ // var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
+  //function greet(name){
+    //return 'Hello ${name} happy Friday!';
  // }
 
- // console.log(hey.slice(0,9);
+  //console.log(greet(names));
+
+// Create a funciton that returns the string, 'Hi Shamika and Ramsey!'
+//var name = 'Hi Shamika and Ramsey!'
+  //function say(param){
+    //return param
+  //}
+
+  //console.log(say(name));
+
+  //var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
+  //function say(param){
+   // return 'Hello ${param[1]} and ${param[3]}!'
+ // }
+
+ // console.log(say(names));
+// Create a function that returns the string, 'Howdy Sam!'
+// Note: Be sure to change 'Samuel' to 'Sam'
+ //var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
+ //function Greet(param){
+  // param.splice(2,1,'Sam');
+  // return `Howdy ${param[2]}!`;
+ //}
+
+ //console.log(Greet(names));
 
 // Problem 7
 // var nums = [12, 3, 50, 1, 99, 2]
