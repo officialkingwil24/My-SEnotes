@@ -22,23 +22,13 @@
   var num = [1,2,3];
   function times(arr){
     for(var i = 0; i < arr.length; i++){
-        var output = arr[i] * 3;
+        var output = arr.indexOf(arr[i]);
+        console.log(output);
+       console.log(`Loop Count: ${output}`);
     }
-    return 'Loop Count'
+    return
 }
-
-  console.log(times(num));
-  
-  var num = [1,2,3];
-function stat(num){
-    for(var i = 0; i < 3; i++){
-      console.log('Loop Count:');
-  }
-    return '1,2,3'
-}
-  console.log(stat())
-
-
+console.log(times(num))
 // Q3: Loop over the following array and console.log the current index value
 //      - ['Zeus', 'Hades', 'Hermies', 'Poseidon']
 //      - The console should similar to the following:
@@ -61,10 +51,11 @@ function stat(num){
     // Output: ['A','S','A','P']
     var words = ['As', 'Soon', 'As', 'Possible'];
         function names(arr){
-            for(var i = 0; i < arr.length; i++){
-                console.log(arr[i]);
-            }
-            return ['A', 'S', 'A', 'P']
+          var input = arr[i];
+          for(var i = 0; i < words.length;i++){
+            var input = words[i];
+            var mid = input.charAt(0)
+            output.push(mid);
         }
 
         console.log(names(words));
