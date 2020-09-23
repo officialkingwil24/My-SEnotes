@@ -1,150 +1,100 @@
-//Problem 1
-// Using Math.random(), console.log 3 random numbers from 5 to 15
-//function getRandomArbitrary(min, max){
- 
-   // min = Math.ceil(min);{
-   // max = Math.floor(max);
-    
-   // return Math.floor(Math.random() * (max - min) + min)
+// Q1: Create a loop that greets us 5 times!
+//      - The console should similar to the following:
+//          - Hi!
+//          - Hi!
+//          - Hi!
+//          - Hi!
+//          - Hi!
+  //function stat(){
+    //for(var i = 0; i < 4; i++){
+      //console.log('Hello There!');
+  //}
+    //return 'Hello There!'
 //}
+  //console.log(stat())
 
-   // console.log(getRandomArbitrary(5,15));
+// Q2: Create a loop which logs the index. Try and use a template literal to produce the result.
+//      - The console should similar to the following:
+//          - Loop Count: 1
+//          - Loop Count: 2
+//          - Loop Count: 3
+//          - Etc.. based on the max value parameter
+  var num = [1,2,3];
+  function times(arr){
+    for(var i = 0; i < arr.length; i++){
+        var output = arr[i] * 3;
+    }
+    return 'Loop Count'
+}
 
-// Problem 2
-// Define a variable name and assign your name to it
-// Create a function that returns your name
-  //var me = 'Will';
-  //function name(param){
-  //  return param;
- // }
+  console.log(times(num));
+  
+  var num = [1,2,3];
+function stat(num){
+    for(var i = 0; i < 3; i++){
+      console.log('Loop Count:');
+  }
+    return '1,2,3'
+}
+  console.log(stat())
 
- // console.log(name(me));
 
-// Problem 3
-// Create a function that accepts 2 arguments, both of which are numbers, and returns the sum of those two numbers
-//function add(num1, num2){
- // var answer = num1 * num2
- // return answer;
-//}
-//console.log(add(5, 25));
+// Q3: Loop over the following array and console.log the current index value
+//      - ['Zeus', 'Hades', 'Hermies', 'Poseidon']
+//      - The console should similar to the following:
+//          -   Zeus
+//          -   Hades
+//          -   Hermies
+//          -   Poseidon
+  //var Power = ['Zeus', 'Hades', 'Hermies', 'Poseidon'];
+    //    function names(arr){
+      //      for(var i = 0; i < arr.length; i++){
+        //        console.log(arr[i]);
+          //  }
+            //return ''
+        //}
 
-// Problem 4
-// Create a function that returns the type of any argument that is being called in the function
-// example
-// type(400) // => 'number'
-// type('hi') // => 'string'
-//var guest = 'welcome to my website'
- // function word(param){
- // return param;
-//}
+        //console.log(names(Power));
 
-  //console.log(word(guest));
+// Q4: Loop over an array of strings and return a new array of single letter strings
+    // Input:    ['As', 'Soon', 'As' 'Possible']
+    // Output: ['A','S','A','P']
+    var words = ['As', 'Soon', 'As', 'Possible'];
+        function names(arr){
+            for(var i = 0; i < arr.length; i++){
+                console.log(arr[i]);
+            }
+            return ['A', 'S', 'A', 'P']
+        }
 
-// Problem 5
-// Hint: Ensure you are modifying the parameter and not the original variable inside the function, this will make your life easier with this question
-// var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
+        console.log(names(words));
 
-// Using the array above, create a funciton that returns the 4th element in the array.
+// Q5: Loop over an array and log to the CLI an array where each word has its second letter capitalized
+    // - Input:    ['Apple', 'Banana', 'Orange', 'Peach', 'Strawberry', 'Plum'];
+    // - Output: ['APple', 'BAnana', 'ORange', 'PEach', 'STrawberry', 'PLum'];
+   // var arrOfStr = ['Apple', 'Banana', 'Orange', 'Peach', 'Strawberry', 'Plum'];
+    //function capscndLst(arr){
+      //  var capWords = [];
+        //for(var i = 0; i < arr.length; i++){
+          //  var ele = arr[i]
+            //var one = elle.slice(0, 2).toUpperCase();
+            //var two = ele.slice(1, -2);
+            //var three = elle.slice(-2).toUpperCase();
+            //var four = elle.slice(-2).toUpperCase();
+            //var five = elle.slice(-2).toUpperCase();
+            //var six = elle.slice(-2).toUpperCase();
+            //var capitalized = one + two + three + four + five + six;
+        
+            //console.log(last)
 
-// Create a function that returns only the last element in the fruits array
-//var fruits = ['apple', 'grape']
-  //function name(one){
-    //one.shift();
-   // return one
- // }
- //var fruits = ['orange', 'peach', 'lemon', 'apple', 'plum', 'kiwi']
- //function name(param) {
- //  return param;
-// }
+          //  capWords.push(capitalized);
+        //}
 
- //console.log(name(fruits[fruits.length-1]));
+      //  return capWords;
+    //}
 
- // console.log(name(fruits));
+   // console.log(capfrstLst(arrOfStr));
 
-// Create a function that returns [peach', 'lemon', 'plum', 'grape']
-//var fruits = ['peach', 'lemon', 'plum', 'grape']
- // function eat(more){
-  //  return more
-//  }
-
- // console.log(eat(fruits));
- //var fruits = ['peach', 'lemon', 'plum', 'grape']
- //function remove(eat) {
-   //return eat.slice(2, -1);
- //}
-
- //console.log(remove(fruits));
- //console.log(fruits);
-
-// Create a function that adds another furit to the end of the array and returns the new array
-//var fruits = ['kiwi', 'fig', 'blueberry']
- // function eat(next){
-   // next.push('mango');
-  //  return next
-//  }
-
- // console.log(eat(fruits));
-
-// Create a funciton that returns the string, 'apple and orange and peach and lemon and plum and grape and watermelon'
-//var fruits = ['apple and orange and peach and lemon and plum amd grape and watermelon']
-//  function name(param){
-  //  return param;
-  //}
-
-  //console.log(name(fruits));
-
-// Problem 6
-// var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
-
-// Using the array above, create a fucntion that returns the string, 'Hello Wil, happy Friday!'
-//var wil = 'Hello Wil, happy Friday!'
-  //function greet(param){
-    //return param;
-  //}
-
-  //console.log(greet(wil));
-
- // var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
-  //function greet(name){
-    //return 'Hello ${name} happy Friday!';
- // }
-
-  //console.log(greet(names));
-
-// Create a funciton that returns the string, 'Hi Shamika and Ramsey!'
-//var name = 'Hi Shamika and Ramsey!'
-  //function say(param){
-    //return param
-  //}
-
-  //console.log(say(name));
-
-  //var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
-  //function say(param){
-   // return 'Hello ${param[1]} and ${param[3]}!'
- // }
-
- // console.log(say(names));
-// Create a function that returns the string, 'Howdy Sam!'
-// Note: Be sure to change 'Samuel' to 'Sam'
- //var names = ['Wil', 'Shamika', 'Samuel', 'Ramsey']
- //function Greet(param){
-  // param.splice(2,1,'Sam');
-  // return `Howdy ${param[2]}!`;
- //}
-
- //console.log(Greet(names));
-
-// Problem 7
- //var nums = [12, 3, 50, 1, 99, 2]
-//function total(){
-  //var i = 0;
-  //while (i < nums.length){
-    //sum += i;
-    //if (i == 5) break;
-    //i++;
-  //}
- // return sum;
-
- // console.log(sum);
-// Using a while loop, create a funciton that adds every number in the nums array and return the total number
+// Q6: Loop over an array of names and log the first and last initial of each person
+    // - Input:    ['Shamika Earle', 'Ramsey Lewis', 'Samuel Pierre Louis', 'Wilson Pierre Louis' ]
+    // - Output: ['SE', 'RL', 'SPL', 'WPL' ]
