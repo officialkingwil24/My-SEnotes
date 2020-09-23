@@ -98,3 +98,18 @@ function stat(num){
 // Q6: Loop over an array of names and log the first and last initial of each person
     // - Input:    ['Shamika Earle', 'Ramsey Lewis', 'Samuel Pierre Louis', 'Wilson Pierre Louis' ]
     // - Output: ['SE', 'RL', 'SPL', 'WPL' ]
+    var names = ['Shamika Earle', 'Ramsey Lewis', 'Samuel Pierre Louis', 'Wilson Pierre Louis'];
+    function initial(arr){
+      for(var i = 0; i < arr.length; i++){
+                console.log(arr[i]);
+                var ele = arr[i]
+                name1.ele.splice(0,8).remove;
+                name2.ele.splice(16,23).remove;
+                name3.ele.splice(31,38,45).remove;
+                name4.ele.splice(53,60,67).remove;
+                var remover = name1 + name2 + name3 + name4;
+            }
+            return remover;
+        }
+
+        console.log(initial(names));
