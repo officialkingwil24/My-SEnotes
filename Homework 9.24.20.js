@@ -84,13 +84,12 @@
             // Hint if you're getting stuck refer to last nights assignment in "SEInstructorNotes\Assignments\Day7Loops.js"
             function Initial(person){
               var nameSplt = person['fullName'].split(' ')
-              var name = nameSplt[0]
               var initials2 = ''
-              for(var j = 0; j < nameSplt.length; j++){
-                var name = nameSplt[j]
+              for(var i = 0; i < nameSplt.length; i++){
+                var name = nameSplt[i]
                 var initial = name[0]
                 initials2 = initials2 + initial
               }
-              return initials2
+              return initials2;
             }
             console.log(initial(person));
