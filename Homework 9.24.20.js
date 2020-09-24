@@ -2,8 +2,21 @@
     // Declare an object called person. 
     // Give the person several properties, including full name, height, and more
     // You'll be using this object for the remaining questions.
+   // var person = {
+     //   fullName: 'Will East',
+       // height: "5'8",
+        //weight: '168',
+        //skin: 'Black',
+        //hairColor: 'Brown',
+        //eyeColor: 'Dark Brown',
+        //day: ['Terrible', 'Chill', 'Sleepy']
+    //}
+    //console.log(person)
+
     // Q0.1
         // Add an email key value pair to the object called person
+    //person['email'] = 'Willeast14@Gmail.com';
+    //console.log(person)
 
 // level 1
     // Q 1.1    
@@ -11,12 +24,14 @@
         // Log that to the console 
             // example 
                 // input:
-                person = {
-                    fullName = 'Nic Leask',
-                    email = 'nic@gmail.com',
-                }
+               // person = {
+                //    fullName = 'Nic Leask',
+                  //  email = 'nic@gmail.com',
+                //}
                 // output:
-                '@gmail.com'
+                //'@gmail.com'
+               // email = person['email'].slice(-10)
+               // console.log(email)
 
 // level 2
     // Q 2.1
@@ -25,11 +40,23 @@
         // If the person is taller log, "Taller than Beckham"
         // If the person is shorter log, "Shorter than Beckham"
             // hint there are 12 inches in a foot, you may want to convert the height into only inches
+    //var height = "5'11";
+    
+      //  if(height > "5'11"){
+        //    console.log("Taller than Beckham");
+         //} else if (height == "5'11"){
+           //  console.log("Same height as Beckham")
+         //}
+        //if(height < "5'11"){
+          //  console.log("Shorter than Beckham");
+            //    }
+              //  console.log(height)
 
     // Q 2.2
         // Create a function which takes in an object 
         // If the object doesn't have a specific key return 'No such value'.
         // If it does, return that key's value. 
+
 
 // level 3
     // Q 3.1
