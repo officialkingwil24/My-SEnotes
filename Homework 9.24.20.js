@@ -82,3 +82,15 @@
         // Create a new key called initials.
         // Set the value of this key to the person's initials.
             // Hint if you're getting stuck refer to last nights assignment in "SEInstructorNotes\Assignments\Day7Loops.js"
+            function Initial(person){
+              var nameSplt = person['fullName'].split(' ')
+              var name = nameSplt[0]
+              var initials2 = ''
+              for(var j = 0; j < nameSplt.length; j++){
+                var name = nameSplt[j]
+                var initial = name[0]
+                initials2 = initials2 + initial
+              }
+              return initials2
+            }
+            console.log(initial(person));
