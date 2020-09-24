@@ -1,6 +1,6 @@
-//Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
-function even_or_odd(number) {
-    console.log(number)
-    return number
+var show = 'Berzerk'
+function removeChar(str){
+    return str.substring(1, str.length-1);
 }
-console.log(even_or_odd(8));
+console.log(removeChar(show))
+   
