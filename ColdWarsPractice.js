@@ -105,33 +105,23 @@
 //function solution(str){
   
 //}
-
-//function reverseString(str) {
-  //for(var i = 0; i < arr.length; i++){
-
-  //}
-  //return str
-//}
-//console.log(reverseString('evil'));
-
-// function reverse(str){
-//   let reversed = "evil";    
-//   for (var i = str.length - 1; i >= 0; i--){        
-//     reversed += str[i];
-//   }    
-//   return reversed
+//solution 1
+// var arr = 'evil'
+// function solution(str){
+//   var reversed = []
+//   for (var i = str.length - 1; i >=0 ; i--) {
+//     reversed.push(str[i])
+//   }
+//   return reversed.join('')
 // }
-// console.log(reverse(evil))
+// console.log(solution(arr))
 
-var arr = 'evil'
-function reverseString(str){
-  var reversed = []
-  for (var i = str.length - 1; i >=0 ; i--) {
-    reversed.push(str[i])
-  }
-  return reversed.join('')
-}
-console.log(reverseString(arr))
+//solution 2
+// var arr = 'evil'
+// function solution(str){
+//   return str.split('').reverse().join('');  
+// }
+// console.log(solution(arr))
 
 //Given an array of integers your solution should find the smallest integer.
 //For example:
@@ -142,21 +132,48 @@ console.log(reverseString(arr))
     
   //}
 //}
-function findSmallestInt(args){
-  let min = Math.min.apply(null, args);
-  return min;
-}
+// function findSmallestInt(args){
+// console.log(findSmallestInt([1,2,3,4,5,0]))
+// var smallestInt = args[0];
+// function findSmallestInt(args){
+  //solution 1
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     return Math.min.apply(null, args);
+//   }
+// }
+// }
+// console.log(findSmallestInt([args]))
 
-function findSmallestInt(args){
+//function findSmallestInt(args){
   //create a variable that holds the smallest integer, initially fil it with the first elemnt
-  var smallestInt = args[0];
-  // loop through all our array elements (starting at 1 for effiency)
-  for(var i = 1; i < args.length; i++){
-    if(args[i] < smallestInt){
-      smallestInt = args[i];
-    }
-  }
-  return smallestInt;
-}
-console.log(findSmallestInt([1,2,3,4,5,-1,-100]))
-console.log(findSmallestInt([1,2,3,4,5,0]))
+ // var smallestInt = args[0];
+  //loop through all our array elements (starting at 1 for effiency)
+  
+  //}
+ //console.log(findSmallestInt([1,2,3,4,5,-1,-100]))
+// console.log(findSmallestInt([1,2,3,4,5,0]))
+
+//solution2
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     return Math.min(...args);
+//   }
+// }
+// console.log(findSmallestInt([1,2,3,4,5.0]))
+
+//solution 3
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     return Math.min.apply(Math, args)
+//   }
+// }
+
+//solution 4
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     args.sort(function(a, b) {
+//     return a - b; } )
+//     return args[0];
+//   }
+// }
