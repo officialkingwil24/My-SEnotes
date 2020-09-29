@@ -119,6 +119,19 @@
   }
   console.log(countSheeps.length)
 
+  function countSheeps(arrayOfSheeps){
+      let count = 0;
+      for(let i = 0; i < arrayOfSheeps.length; i++){
+          let strOfSheep = arrayOfSheep[i];
+
+          if(strOfSheep == true){
+              count++;
+          }
+      }
+      return count;
+  }
+  console.log(countOfSheeps(count))
+
 //Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
 // For example:
 // summation(2) -> 3
@@ -180,5 +193,5 @@ function litres(time){
     //centuryFromYear(1601)  returns (17)
     //centuryFromYear(2000)  returns (20)
     function century(year){
-        return; 
+        return Math.ceil(year/100); 
     }
