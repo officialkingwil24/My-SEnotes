@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     height: 100vh;
-    background-color: blueviolet;
+    background-color: burlywood;
 }
 
 .mainCartoon{
@@ -27,6 +27,28 @@ body{
     margin: 10px;
 }
 
+.card{
+    display:flex;
+    flex-direction: column;
+
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 8px 5px #888888;
+    transition: all .3s;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 8px 8px #888888;
+}
+
 img{
     width: 100%;
+}
+
+button{
+    transition-duration: 0.4s;
+    background-color: greenyellow;
+    color: whitesmoke;
+    cursor: pointer;
 }
