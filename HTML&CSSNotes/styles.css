@@ -1,0 +1,44 @@
+body {
+    color: red;
+}
+
+.paragraph1{
+    color: blue;
+}
+
+#paragraph2{
+    color: orange;
+}
+
+p{
+    color: purple;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.square{
+    /* the following styles contents of the square */
+    height: 50px;
+    width: 50px;
+    background-color: rgb(223, 87, 87);
+    padding: 20px;
+    margin: 30px;
+    border: 4px solid brown;
+
+    /* the following styles contents of the square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerSquare{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(9, 9, 58);
+}
