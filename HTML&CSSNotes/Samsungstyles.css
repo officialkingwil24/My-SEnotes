@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: white;
+}
+
+.mainCartoon{
+    border: 1px solid black;
+    padding: 40px;
+    max-width: 1440px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 100vw;
+    align-items: center;
+}
+
+#banner{
+    background-color: blue;
+    width: 100vw;
+    align-items: center;
+}
+
+.col{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 8px 5px silver;
+    transition: all .3s;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 8px 8px #888888;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    opacity: 0;
+    transition-duration: 0.4s;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 1;
+}
