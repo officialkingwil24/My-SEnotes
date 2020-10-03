@@ -2,6 +2,7 @@ body{
     margin: 0px;
     height: 100vh;
     background-color: white;
+    font-family: arial,sans-serif;
 }
 
 .mainCartoon{
@@ -38,6 +39,7 @@ body{
 .card{
     display:flex;
     flex-direction: column;
+    width: 400px;
 
     padding: 10px;
     background-color: whitesmoke;
