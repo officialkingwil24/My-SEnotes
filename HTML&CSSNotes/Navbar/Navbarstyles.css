@@ -1,16 +1,16 @@
 :root {
     font-size: 16px;
-    font-family: 'Open Sans';
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --text-primary: #e0bbbb;
+    --text-secondary: #f7efef;
+    --bg-primary: #2a2a4e;
+    --bg-secondary: #000008;
     --transition-speed: 600ms;
   }
   
   body {
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
   }
@@ -20,11 +20,11 @@
   }
   
   body::-webkit-scrollbar-track {
-    background: #1e1e24;
+    background: #6b6be7;
   }
   
   body::-webkit-scrollbar-thumb {
-    background: #6649b8;
+    background: #c204fc;
   }
   
   main {
@@ -85,11 +85,11 @@
   }
   
   .fa-primary {
-    color: #ff7eee;
+    color: #fafaf5;
   }
   
   .fa-secondary {
-    color: #df49a6;
+    color: #0b0e00;
   }
   
   .fa-primary,
@@ -179,24 +179,24 @@
   }
   
   .dark {
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --text-primary: #c305fd;
+    --text-secondary: #0a0a0a;
+    --bg-primary: #fa0afa;
+    --bg-secondary: #cefa0a;
   }
   
-  .light {
-    --text-primary: #1f1f1f;
+  .bright {
+    --text-primary: #fdfbfb;
     --text-secondary: #000000;
-    --bg-primary: #ffffff;
-    --bg-secondary: #e4e4e4;
+    --bg-primary: #04d2f7;
+    --bg-secondary: #05aefd;
   }
   
-  .solar {
-    --text-primary: #576e75;
-    --text-secondary: #35535c;
-    --bg-primary: #fdf6e3;
-    --bg-secondary: #f5e5b8;
+  .fire {
+    --text-primary: #f87b06;
+    --text-secondary: #ff6b08;
+    --bg-primary: #eeff01;
+    --bg-secondary: rgb(214, 37, 6);
   }
   
   .theme-icon {
