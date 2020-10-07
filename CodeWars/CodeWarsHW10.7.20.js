@@ -11,7 +11,7 @@ function invert(array) {
     }
      return newArr;
   }
-  console.log
+  console.log(invert([1,2,3,4,5]));
 
 //   Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
 function fakeBin(str){
@@ -26,7 +26,9 @@ function fakeBin(str){
     }
     return newStr;
   }
-  console.log
+  console.log(fakeBin("32951"));
+  console.log(fakeBin("123459"));
+  console.log(fakeBin("492351"));
 
 // You take your son to the forest to see the monkeys. You know that there are a certain number there (n), but your son is too young to just appreciate the full number, he has to start counting them from 1.
 // As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
@@ -38,7 +40,10 @@ function monkeyCount(n) {
     
     return arr;
   }
-  console.log
+  console.log(monkeyCount(5));
+  console.log(monkeyCount(10));
+  console.log(monkeyCount(15));
+  console.log(monkeyCount(20));
 
 // An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 // isIsogram("Dermatoglyphics") == true
@@ -53,4 +58,7 @@ function isIsogram(str){
           return false;
     return true;
   }
-  console.log
+  console.log(isIsogram("will"));
+  console.log(isIsogram("m a c k"));
+  console.log(isIsogram("LOUIS"));
+  console.log(isIsogram("mOnEy"));
