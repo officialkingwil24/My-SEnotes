@@ -22,12 +22,12 @@
 // XO("ooxXm") => true
 // XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 // XO("zzoo") => false
-// using System.Linq;
-// using System;
-// public static class Kata 
-// {
-//   public static bool XO (string input)
-//   {
-//     return //Code it!
+// function XO(str) {
+//     let lowerStr = str.toLowerCase(); // 'AbCd' -> 'abcd'
+//     let arrOfLetters = lowerStr.split(''); // 'abcd' -> ['a', 'b', 'c', 'd']
+    
+//     let allXs = arrOfLetters.filter(l => l === 'x'); // if our current value is 'x' then we add that x to the variable allXs
+//     let allOs = arrOfLetters.filter(l => l === 'o'); // if our current value is 'o' then we add that o to the variable allOs
+    
+//     return allXs.length === allOs.length;
 //   }
-// }
