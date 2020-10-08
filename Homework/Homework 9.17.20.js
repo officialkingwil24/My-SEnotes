@@ -25,15 +25,15 @@
     // var fulltext2 = 'GNF6519871681;Greenfield"
     // GNF6519871681, City: Greenfield
     // var fulltext2 = "GNF6519871681;Greenfield"
-     // console.log('Code: ' + fulltext2.replace(';', ', City: '));
+    //  console.log('Code: ' + fulltext2.replace(';', ', City: '));
     // var fulltext3 = "LIV515;Liverpool"
     // LIV515, City: Liverpool
     // var fulltext3 = "LIV515;Liverpool"
-     // console.log(str.split('LIV515;Liverpool'))
+    //  console.log(str.split('LIV515;Liverpool'))
     // console.log('Code: ' + fulltext3.replace(';', ', City: '));
     // SYB98981981, City: Stalybridge
     // var fulltext4 = "SYB98981981;Stalybridge"
     // var fulltext5 = HUD517819181;Huddersfield"
     // HUD517819181, Huddersfield
     // var fulltext5 = "HUD517819181;Huddersfield"
-     // console.log('Code: ' + fulltext5.replace(';', ', City: '));
+    //  console.log('Code: ' + fulltext5.replace(';', ', City: '));
