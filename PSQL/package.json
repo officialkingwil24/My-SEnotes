@@ -1,0 +1,15 @@
+{
+  "name": "psql",
+  "version": "1.0.0",
+  "description": "* Create DB (Def Jam)\r * Create Table (Def Jam)\r * Add a few items (Def Jam)\r * Write a selector to retrieve info\r * Write JavaScript utilizing the selector to log the info\r * Write JavaScript to display info on web page\r * Stretch Goal: CRUD?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.0"
+  }
+}
